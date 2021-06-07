@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0 10px;
+}
+
+.main-body {
+  background: url("https://i.pinimg.com/originals/22/29/48/2229482d05b9c11426bc62d33ebbef0f.jpg");
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.left-side {
+  background: url("../assets/background.jpeg");
+  background-size: cover;
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+}
+
+.button-enter {
+  margin-top: 5px;
+}
+
+.create-account {
+  color: green;
+  text-decoration: none;
+}
+
+.right-content {
+  width: 90%;
+}
+
+.to-create {
+  width: 50%;
+}
+
+.enter-system {
+  margin-top: 25px;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.icon-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  display: inline-block;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.eye-display {
+  display: none;
+}
+
+.logout {
+  color: white;
+  background-color: none;
+}
+
+.description,
+.detailing {
+  width: 50%;
+}
+
+.form-container {
+  height: fit-content;
+  margin: 10px 0;
+}
